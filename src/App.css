@@ -1,0 +1,51 @@
+.App{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Menu , .Quiz , .endScreen{
+  color : #fff;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightseagreen;
+}
+
+.Quiz h1 {
+  text-align: center;
+}
+
+.Menu button , .Quiz button , .next  , .endScreen button{
+  width: 300px;
+  border: none;
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: 400;
+}
+
+.next{
+  text-align: center;
+    background-color: #fff;
+    color: black;
+    width: 52%;
+}
+
+.Options{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
